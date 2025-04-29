@@ -24,3 +24,167 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.heroimge{
+  background-image: url(asset/heroimage.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.howitwork{
+  background-image: url(asset/howitworkbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.video {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('asset/video.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-0 {
+  background-image: url(asset/bgfleet.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-1 {
+  background-image:  url(asset/bgsecurity.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-2 {
+  background-image:  url(asset/bgtrust.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-3 {
+  background-image: url(asset/bgride.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@keyframes fadeSlideLeft {
+  0% {
+    transform: translateX(50%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeSlideRight {
+  0% {
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.fade-slide-left {
+  transform: translateX(50%);
+  animation: fadeSlideLeft 1.8s ease-in forwards;
+  animation-delay: 0.9;
+}
+
+.fade-slide-right {
+  transform: translateX(-50%);
+  animation: fadeSlideRight 1.8s ease-in forwards;
+  animation-delay: 0.9;
+}
+@keyframes fadeSlideDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px);
+    opacity: 1;
+  }
+}
+
+.fade-slide-down {
+  animation: fadeSlideDown 2.5s ease-in-out infinite;
+}
+@keyframes fadeSlideLeftRight {
+  0% {
+    transform: translateX(-30px);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-30px);
+    opacity: 1;
+  }
+}
+
+.fade-slide-left-right {
+  animation: fadeSlideLeftRight 2.5s ease-in-out infinite;
+}
+.ride-0 {
+  background-image:  url(asset/ride1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ride-1 {
+  background-image:  url(asset/ride2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ride-2 {
+  background-image:  url(asset/ride3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact{
+  background-image:  url(asset/contactbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 26px;
+}
+.footer{
+  background-image: url(asset/FooterBG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.footercard_1{
+  background-image: url(asset/cardbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.footercard_2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(asset/cardbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
