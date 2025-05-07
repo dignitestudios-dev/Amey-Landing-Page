@@ -36,7 +36,16 @@ import footercard1 from "./footercard1.png";
 
 import footercard2 from "./footercard2.png";
 
+import screenshot2 from "./screenshot2.png";
+import screenshot1 from "./screenshot1.jpeg";
+import screenshot3 from "./screenshot3.jpeg";
+import screenshot4 from "./screenshot4.jpeg";
+
 export {
+  screenshot1,
+  screenshot2,
+  screenshot3,
+  screenshot4,
   footercard2,
   footercard1,
   appstore,

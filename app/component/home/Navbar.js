@@ -30,7 +30,7 @@ const Navbar = () => {
                 }`}
               >
                 <Link
-                  href={"#home"}
+                  href={"/home"}
                   onClick={() => {
                     setActive("home");
                   }}
@@ -47,7 +47,7 @@ const Navbar = () => {
                 }`}
               >
                 <Link
-                  href={"#aboutus"}
+                  href={"/home#aboutus"}
                   onClick={() => {
                     setActive("aboutus");
                   }}
@@ -64,7 +64,7 @@ const Navbar = () => {
                 }`}
               >
                 <Link
-                  href="#howitswork"
+                  href={"/home#howitswork"}
                   onClick={() => {
                     setActive("howitswork");
                   }}
@@ -81,7 +81,7 @@ const Navbar = () => {
                 }`}
               >
                 <Link
-                  href={"#feature"}
+                  href={"/home#feature"}
                   onClick={() => {
                     setActive("feature");
                   }}
@@ -98,7 +98,7 @@ const Navbar = () => {
                 }`}
               >
                 <Link
-                  href="#testimonials"
+                  href="/home#testimonials"
                   onClick={() => {
                     setActive("testimonials");
                   }}
@@ -114,7 +114,7 @@ const Navbar = () => {
                 }`}
               >
                 <Link
-                  href={"#FAQs"}
+                  href={"/home#FAQs"}
                   onClick={() => {
                     setActive("FAQs");
                   }}
@@ -131,7 +131,7 @@ const Navbar = () => {
                 }`}
               >
                 <Link
-                  href={"#contactus"}
+                  href={"/home#contactus"}
                   onClick={() => {
                     setActive("contactus");
                   }}
@@ -166,7 +166,7 @@ const Navbar = () => {
           <div className=" p-5 flex justify-between items-start w-full">
             <ul className="flex flex-col space-y-4 py-5 uppercase">
               <li
-                onClick={toggle} 
+                onClick={toggle}
                 className={`text-[16px] cursor-pointer font-[400] ${
                   active === "home"
                     ? "text-[#0CBA70] underline underline-offset-8 decoration-[#0CBA70]"

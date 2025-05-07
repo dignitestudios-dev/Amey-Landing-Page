@@ -36,50 +36,59 @@ const Footer = () => {
               </p>
               <ul className="mt-5 space-y-2">
                 <li>
-                  <a
-                    href="#Home"
+                  <Link
+                    href="/home#home"
                     className="py-5 font-[400] text-[14px]  text-[#FFFFFF]"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <Link href={"#feature"} 
-
+                  <Link
+                    href={"/home#aboutus"}
                     className="py-5 font-[400] text-[14px]  text-[#FFFFFF]"
                   >
                     Why Choose us
                   </Link>
                 </li>
                 <li>
-                  <Link href={"#feature"}
+                  <Link
+                    href={"/home#howitswork"}
                     className="py-5 font-[400] text-[14px]  text-[#FFFFFF]"
                   >
                     How it works
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    href={"/home#feature"}
                     className="py-5 font-[400] text-[14px]  text-[#FFFFFF]"
                   >
-                    About Us
-                  </a>
+                    Features
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#Testimonial"
+                  <Link
+                    href="/home#testimonials"
                     className="py-5 font-[400] text-[14px]  text-[#FFFFFF]"
                   >
                     Testimonial
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#FAQs"
+                  <Link
+                    href={"/home#FAQs"}
                     className="py-5 font-[400] text-[14px]  text-[#FFFFFF]"
                   >
                     FAQs
+                  </Link>
+                </li>
+                <li>
+                  <a
+                    href={"/home#contactus"}
+                    className="py-5 font-[400] text-[14px]  text-[#FFFFFF]"
+                  >
+                    Contact Us
                   </a>
                 </li>
               </ul>
@@ -138,12 +147,18 @@ const Footer = () => {
             2024 Copyright reserves. Amey{" "}
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
-            <p className=" font-[400] text-[14px]  text-[#FFFFFF]">
+            <Link
+              href={"/privacy"}
+              className=" font-[400] text-[14px]  text-[#FFFFFF]"
+            >
               privacy Policy
-            </p>
-            <p className=" font-[400] text-[14px]  text-[#FFFFFF]">
+            </Link>
+            <Link
+              href={"/Terms"}
+              className=" font-[400] text-[14px]  text-[#FFFFFF]"
+            >
               Terms & Conditions
-            </p>
+            </Link>
           </div>
         </div>
       </div>
