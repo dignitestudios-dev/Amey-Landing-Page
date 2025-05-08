@@ -10,7 +10,7 @@ import ContactUs from "../component/home/ContactUs";
 import FAQSection from "../component/home/FAQs";
 import Footer from "../component/home/Footer";
 
-const Page = () => {
+const Home = () => {
   return (
     <div className="w-full  bg-[#f3fff8]">
       <Hero />
@@ -26,4 +26,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Home;
