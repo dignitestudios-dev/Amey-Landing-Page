@@ -3,6 +3,7 @@ import { faqicon } from "@/app/asset/export";
 import Image from "next/image";
 import { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
+import { FaXmark } from "react-icons/fa6";
 
 const faqs = [
   {
@@ -47,10 +48,7 @@ export default function FAQSection() {
             key={index}
             className=" rounded-[12px] p-4 transition-all duration-300 bg-white"
           >
-            <div
-              
-              className="flex justify-between items-center cursor-pointer"
-            >
+            <div className="flex justify-between items-center cursor-pointer">
               <h3
                 className={`text-[18px] font-[600] flex items-center gap-4  ${
                   openIndex === index ? "text-green-600" : "text-[#323232]"
@@ -61,9 +59,9 @@ export default function FAQSection() {
                 </span>
                 {faq.question}
               </h3>
-              <span onClick={() => toggleFAQ(index)}  className="">
+              <span onClick={() => toggleFAQ(index)} className="">
                 {openIndex === index ? (
-                  <FaMinus />
+                  <FaXmark size={20} />
                 ) : (
                   <FaPlus className="text-[#0CBA70]" />
                 )}

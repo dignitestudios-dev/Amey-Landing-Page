@@ -70,13 +70,13 @@ export default function Testimonials() {
           </div>
           <div className="flex gap-2">
             <div
-              ref={nextRef}
+              ref={prevRef}
               className="bg-[#E1F4FF] hover:bg-[#00C265] hover:text-white w-10 h-10 rounded-full flex items-center justify-center cursor-pointer shadow-md"
             >
               <IoIosArrowBack />
             </div>
             <div
-              ref={prevRef}
+              ref={nextRef}
               className="bg-[#E1F4FF] hover:bg-[#00C265] hover:text-white w-10 h-10 rounded-full flex items-center justify-center cursor-pointer shadow-md"
             >
               <IoIosArrowForward />

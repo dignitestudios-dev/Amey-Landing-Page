@@ -134,8 +134,16 @@ export default function page() {
           We may update this policy and will post changes in the App or website.
           Continued use after updates means you accept the changes.
         </p>
-
-        <h2 className="text-2xl font-bold mb-2">10. Contact Us</h2>
+   <h2 className="text-2xl font-bold mb-2">
+          10. Phone Number Collection, Usage, and Verification
+        </h2>
+        <p className="mb-6">
+         For purposes of user verification and to uphold the integrity of the Amey platform, we require the collection of your phone number. During the registration process, a One-Time Password (OTP) will be sent to the phone number provided to confirm its authenticity and ensure that access is granted exclusively to genuine users. This verification process is implemented as a measure to prevent the use of false or spam numbers within our platform.
+        </p>
+        <p className="mb-6">
+         Your phone number will remain confidential and will not be disclosed to third-party entities, shared with external platforms, or used for any marketing or promotional activities. It is utilized solely for the purpose of verifying user identity and facilitating necessary communications between renters and boat owners as it pertains to booking and rental activities on Amey.
+        </p>
+        <h2 className="text-2xl font-bold mb-2">11. Contact Us</h2>
         <p>If you have questions, contact us at:</p>
         <ul className="list-none pl-4 mt-2">
           <li>
